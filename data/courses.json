@@ -1,37 +1,38 @@
 [
     {
       "id": "01",
-      "name": "HTML",
+      "title": "HTML",
       "meaning": "Hyper Text MarkUp Language"
     },
     {
       "id": "02",
-      "name": "CSS",
+      "title": "CSS",
       "meaning": "Cascading Style sheets"
     },
     {
       "id": "03",
-      "name": "JavaScript"
+      "title": "JavaScript"
     },
     {
       "id": "04",
-      "name": "Python"
+      "title": "Python"
     },
     {
       "id": "05",
-      "name": "SQL",
+      "title": "SQL",
       "meaning": "Structured Query Language"
     },
     {
       "id": "06",
-      "name": "C++"
+      "title": "C++"
     },
     {
       "id": "07",
-      "name": "PHP"
+      "title": "PHP",
+      "meaning": "Hypertext Preprocessor"
     },
     {
       "id": "08",
-      "name": "All Courses"
+      "title": "All Courses"
     }
   ]

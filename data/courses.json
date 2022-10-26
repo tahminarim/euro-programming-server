@@ -14,9 +14,10 @@
       "title": "JavaScript"
     },
     {
-      "id": "04",
-      "title": "Python"
-    },
+        "id": "04",
+        "title": "PHP",
+        "meaning": "Hypertext Preprocessor"
+      },
     {
       "id": "05",
       "title": "SQL",
@@ -25,14 +26,6 @@
     {
       "id": "06",
       "title": "C++"
-    },
-    {
-      "id": "07",
-      "title": "PHP",
-      "meaning": "Hypertext Preprocessor"
-    },
-    {
-      "id": "08",
-      "title": "All Courses"
     }
+
   ]

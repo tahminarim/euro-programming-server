@@ -26,6 +26,10 @@ app.get('/coursedetails', (req, res) => {
     res.send(coursedetails)
 });
 
+app.get('/premiumaccess', (req, res) => {
+    res.send(coursedetails)
+});
+
 app.get('/course/:id', (req, res) => {
     //console.log(req.params.id);
     const id = req.params.id;
@@ -38,26 +42,8 @@ app.get('/blogs', (req, res) =>{
     res.send('blogs');
 });
 
-// app.get('/news/:id', (req, res) => {
-//     const id = req.params.id;
-//     const selectedNews = news.find(n => n._id === id);
-//     res.send(selectedNews);
-// });
+
 
 app.listen(port, ()=>{
-    console.log('euro programming running',port);
+    console.log('euro programming API running',port);
 })
-
-
-
-// app.get('/course/:id', (req, res) => {
-//     //console.log(req.params.id);
-//     const id = req.params.id;
-//     if (id === '08') {
-//         res.send(courses);
-//     }
-//     else {
-//         const course = coursedetails.find(n => n.course_id === id);
-//         res.send(course);
-//     }
-// })
